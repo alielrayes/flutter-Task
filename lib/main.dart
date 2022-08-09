@@ -85,57 +85,63 @@ class FacebookApp extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: (){},
+                  
+                  style: ButtonStyle(
+                    shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
+                    padding: MaterialStateProperty.all(EdgeInsets.all(34)),
+                    backgroundColor: MaterialStateProperty.all(Colors.orange[500]),
+                  ),
                   child: Text("1", style: TextStyle(fontSize: 27),),
+                  ),
+                ElevatedButton(
+                  onPressed: (){},
+                  
                   style: ButtonStyle(
                     shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
                     padding: MaterialStateProperty.all(EdgeInsets.all(34)),
                     backgroundColor: MaterialStateProperty.all(Colors.orange[500]),
                   ),
-                  ),
-                ElevatedButton(
-                  onPressed: (){},
                   child: Text("2", style: TextStyle(fontSize: 27),),
+                  ),
+                ElevatedButton(
+                  onPressed: (){},
+                  
                   style: ButtonStyle(
                     shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
                     padding: MaterialStateProperty.all(EdgeInsets.all(34)),
                     backgroundColor: MaterialStateProperty.all(Colors.orange[500]),
                   ),
-                  ),
-                ElevatedButton(
-                  onPressed: (){},
                   child: Text("3", style: TextStyle(fontSize: 27),),
+                  ),
+                ElevatedButton(
+                  onPressed: (){},
+                  
                   style: ButtonStyle(
                     shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
                     padding: MaterialStateProperty.all(EdgeInsets.all(34)),
                     backgroundColor: MaterialStateProperty.all(Colors.orange[500]),
                   ),
-                  ),
-                ElevatedButton(
-                  onPressed: (){},
                   child: Text("4", style: TextStyle(fontSize: 27),),
+                  ),
+                ElevatedButton(
+                  onPressed: (){},
+                  
                   style: ButtonStyle(
                     shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
                     padding: MaterialStateProperty.all(EdgeInsets.all(34)),
                     backgroundColor: MaterialStateProperty.all(Colors.orange[500]),
                   ),
-                  ),
-                ElevatedButton(
-                  onPressed: (){},
                   child: Text("5", style: TextStyle(fontSize: 27),),
-                  style: ButtonStyle(
-                    shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
-                    padding: MaterialStateProperty.all(EdgeInsets.all(34)),
-                    backgroundColor: MaterialStateProperty.all(Colors.orange[500]),
-                  ),
                   ),
                 ElevatedButton(
                   onPressed: (){},
-                  child: Text("6", style: TextStyle(fontSize: 27),),
+                  
                   style: ButtonStyle(
                     shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))),
                     padding: MaterialStateProperty.all(EdgeInsets.all(34)),
                     backgroundColor: MaterialStateProperty.all(Colors.orange[500]),
                   ),
+                  child: Text("6", style: TextStyle(fontSize: 27),),
                   ),
               
               ],
